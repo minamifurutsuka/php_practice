@@ -40,3 +40,37 @@ $calendar_2018 = [
 ];
 
 echo $calendar_2018["December"];
+echo "\n";
+
+#03 課題
+$name = "minami";
+if ($name = "minami") {
+    echo "私は みなみ です";
+} else {
+    echo "みなみではありません";
+}
+echo "\n";
+
+$total = 0;
+echo $total;
+
+for ($i = 0; $i <= 1000; $i++) {
+  $total += $i;
+}
+echo $total;
+echo "\n";
+
+$fruits = array("strawberry", "apple", "orange", "grape", "peach");
+foreach ($fruits as $fruit) {
+  echo "要素は" . $fruit;
+  echo "\n";
+}
+echo "\n";
+
+$start = 1;
+$end = 100;
+for($i = $start; $i < $end; $i++){
+  if($i % 5 == 0){
+    echo $i;
+  }
+}
